@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- May 04, 2020 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sample Post</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Suat" />
+<meta name="keywords" content="gitlab, git, org-mode, orgmode, emacs post" />
+<link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
+<link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='/css/custom.css' type='text/css'/>
+<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="/"> UP </a>
+ |
+ <a accesskey="H" href="/"> HOME </a>
+</div><header id="top" class="status">
+<div class='intro'>
+<img src='/images/about/profile.png' alt='John Doe' class='no-border'/>
+<h1>John Doe</h1>
+<p>Emacser</p>
+</div>
+
+<div class='nav'>
+<ul>
+<li><a href='/'>Blog</a>.</li>
+<li><a href='http://gitlab.com/'>GitLab</a>.</li>
+<li><a href='https://www.reddit.com/user/'>Reddit</a>.</li>
+<li><a href='/index.xml'>RSS</a>.</li>
+<li><a href='/about/'>About</a></li>
+</ul>
+</div>
+</header>
+<main id="content">
+<h1 class="title">Sample Post
+<br />
+<span class="subtitle">Published on Feb 05, 2020 by Suat.</span>
+</h1>
+<p>
+<i>This is in Italic</i> and <b>this is bold</b> and <span class="underline">this is how underlined looks</span>. We
+can also use <code>verbatim</code> or <code>code</code>. Use <del>strikethrough</del> if
+needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+</p>
+
+<section id="outline-container-org3f20a5d" class="outline-2">
+<h2 id="org3f20a5d">HTML snippet:</h2>
+<div class="outline-text-2" id="text-org3f20a5d">
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span class="org-function-name">html</span>&gt;
+  &lt;<span class="org-function-name">h1</span>&gt;&lt;/<span class="org-function-name">h1</span>&gt;
+&lt;/<span class="org-function-name">html</span>&gt;
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org3359f50" class="outline-2">
+<h2 id="org3359f50">Python snippet with line numbers:</h2>
+<div class="outline-text-2" id="text-org3359f50">
+<div class="org-src-container">
+<pre class="src src-python"><span class="linenr"> 1: </span><span class="org-keyword">from</span> contextlib <span class="org-keyword">import</span> contextmanager
+<span class="linenr"> 2: </span>
+<span class="linenr"> 3: </span><span class="org-type">@contextmanager</span>
+<span class="linenr"> 4: </span><span class="org-keyword">def</span> <span class="org-function-name">tag</span>(name):
+<span class="linenr"> 5: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;%s&gt;"</span> % name)
+<span class="linenr"> 6: </span>    <span class="org-keyword">yield</span>
+<span class="linenr"> 7: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;/%s&gt;"</span> % name)
+<span class="linenr"> 8: </span>
+<span class="linenr"> 9: </span><span class="org-keyword">with</span> tag(<span class="org-string">"h1"</span>):
+<span class="linenr">10: </span>    <span class="org-keyword">print</span>(<span class="org-string">"foo"</span>)
+<span class="linenr">11: </span>
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgbb9974d" class="outline-2">
+<h2 id="orgbb9974d">Emacs Lisp snippet</h2>
+<div class="outline-text-2" id="text-orgbb9974d">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(message <span class="org-string">"foo-bar"</span>)
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgcda5588" class="outline-2">
+<h2 id="orgcda5588">Github Gist:</h2>
+<div class="outline-text-2" id="text-orgcda5588">
+<script src="https://gist.github.com/psachin/97708deb39aa60484c95a9df6f535ba6.js"></script>
+</div>
+</section>
+
+<section id="outline-container-orge203e1b" class="outline-2">
+<h2 id="orge203e1b">Gitlab Snippet</h2>
+<div class="outline-text-2" id="text-orge203e1b">
+<script src="https://gitlab.com/snippets/1790218.js"></script>
+</div>
+</section>
+
+<section id="outline-container-org61073e8" class="outline-2">
+<h2 id="org61073e8">Below is the content of <code>.gitlab-ci.yml</code>:</h2>
+<div class="outline-text-2" id="text-org61073e8">
+<div class="org-src-container">
+<pre class="src src-conf">image: iquiw/alpine-emacs
+
+.build: &amp;build
+  script:
+  - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
+  artifacts:
+    paths:
+    - public
+
+pages:
+  &lt;&lt;: *build
+  only:
+  - master
+
+test:
+  &lt;&lt;: *build
+  except:
+  - master
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org3694731" class="outline-2">
+<h2 id="org3694731">Center aligned image with no border:</h2>
+<div class="outline-text-2" id="text-org3694731">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="center no-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org95205f5" class="outline-2">
+<h2 id="org95205f5">Image with Black border:</h2>
+<div class="outline-text-2" id="text-org95205f5">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="black-border" />
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-org5897ec4" class="outline-2">
+<h2 id="org5897ec4">Image with spaced border:</h2>
+<div class="outline-text-2" id="text-org5897ec4">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="spaced-border" />
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgd968ffe" class="outline-2">
+<h2 id="orgd968ffe">Image with rounded corners:</h2>
+<div class="outline-text-2" id="text-orgd968ffe">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org8d1c0ba" class="outline-2">
+<h2 id="org8d1c0ba">Image with rounded corners and border:</h2>
+<div class="outline-text-2" id="text-org8d1c0ba">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border black-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org47f456a" class="outline-2">
+<h2 id="org47f456a">Image with Caption:</h2>
+<div class="outline-text-2" id="text-org47f456a">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" />
+</p>
+<p><span class="figure-number">Figure 6: </span>Fan of FSF</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org006e4bb" class="outline-2">
+<h2 id="org006e4bb">Image with 40% width:</h2>
+<div class="outline-text-2" id="text-org006e4bb">
+
+<div class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" width="40%" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org918594f" class="outline-2">
+<h2 id="org918594f">Table:</h2>
+<div class="outline-text-2" id="text-org918594f">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" align="center">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Specs</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Brand</td>
+<td class="org-left">Vostok</td>
+</tr>
+
+<tr>
+<td class="org-left">Class</td>
+<td class="org-left">Amphibia</td>
+</tr>
+
+<tr>
+<td class="org-left">Model</td>
+<td class="org-left">670927</td>
+</tr>
+
+<tr>
+<td class="org-left">Movement</td>
+<td class="org-left">2415</td>
+</tr>
+
+<tr>
+<td class="org-left">Winding</td>
+<td class="org-left">Manual + Automatic</td>
+</tr>
+
+<tr>
+<td class="org-left">Jewels</td>
+<td class="org-left">31</td>
+</tr>
+
+<tr>
+<td class="org-left">Power reserve</td>
+<td class="org-left">&lt; 33 hrs.</td>
+</tr>
+
+<tr>
+<td class="org-left">WR</td>
+<td class="org-left">20 ATM</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial</td>
+<td class="org-left">41mm</td>
+</tr>
+
+<tr>
+<td class="org-left">Lug width</td>
+<td class="org-left">20mm</td>
+</tr>
+
+<tr>
+<td class="org-left">Strap material</td>
+<td class="org-left">Silicon</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial material</td>
+<td class="org-left">Steel</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial shape</td>
+<td class="org-left">Round</td>
+</tr>
+
+<tr>
+<td class="org-left">Bezel</td>
+<td class="org-left">(smooth)Rotating</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Visit <a href="https://orgmode.org/org.html">The Org Manual</a> for more detail.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+It&rsquo;s easy to publish org-mode pages via <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> and <a href="https://pages.gitlab.io/">Pages</a>.
+</p>
+
+<div class='comments'><div id='disqus_thread'></div><script type='text/javascript'>var disqus_shortname = 'johndoe-example-com'; (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script>  <noscript>Please enable JavaScript to view the <a href='http://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript></div></div></div>
+
+
+</div>
+</div></main>
+<footer id="postamble" class="status">
+<div class='footer'>
+Copyright © 2020 <a href='mailto:john.doe@example.com'>John Doe</a><br>
+Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
+Last updated on May 03, 2020 using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.0.50 (<a href="https://orgmode.org">Org</a> mode 9.3.6)
+</div>
+</footer>
+</body>
+</html>
