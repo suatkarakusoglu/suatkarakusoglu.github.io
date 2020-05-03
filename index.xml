@@ -14,8 +14,8 @@
   <link>http://example.com/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 May 2020 00:31:38 +0300</pubDate>
-  <lastBuildDate>Mon, 04 May 2020 00:31:38 +0300</lastBuildDate>
+  <pubDate>Mon, 04 May 2020 01:35:12 +0300</pubDate>
+  <lastBuildDate>Mon, 04 May 2020 01:35:12 +0300</lastBuildDate>
   <generator>Emacs 28.0 Org-mode 9.3.6</generator>
   <webMaster>suatkarakusoglu@Suats-MacBook-Pro.local (Suat Karakusoglu)</webMaster>
   <image>
@@ -25,6 +25,10 @@
   </image>
 
   <ul class="org-ul">
+    <li><p>
+      <b><a href="flutter-installation.html">Sample Post</a></b>
+    </p>
+    <p class='pubdate'>by Suat on May 04, 2020.</p></li>
     <li><p>
       <b><a href="template.html">Sample Post</a></b>
     </p>
