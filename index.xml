@@ -14,8 +14,8 @@
   <link>http://example.com/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 05 Jul 2020 19:32:09 +0300</pubDate>
-  <lastBuildDate>Sun, 05 Jul 2020 19:32:09 +0300</lastBuildDate>
+  <pubDate>Sun, 05 Jul 2020 20:32:42 +0300</pubDate>
+  <lastBuildDate>Sun, 05 Jul 2020 20:32:42 +0300</lastBuildDate>
   <generator>Emacs 28.0 Org-mode 9.3.6</generator>
   <webMaster>suatkarakusoglu@Suats-MacBook-Pro.local (Suat Karakusoglu)</webMaster>
   <image>
@@ -26,13 +26,9 @@
 
   <ul class="org-ul">
     <li><p>
-      <b><a href="InformationFluss.html">Information Fluss</a></b>
+      <b><a href="InformationFlow.html">Information Flow</a></b>
     </p>
     <p class='pubdate'>by Suat on Jul 05, 2020.</p></li>
-    <li><p>
-      <b><a href="SamplePost.html">Sample Post</a></b>
-    </p>
-    <p class='pubdate'>by Suat on May 04, 2020.</p></li>
   </ul>
 </channel>
 </rss>
