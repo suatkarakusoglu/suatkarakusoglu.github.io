@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on STKRKSGL</title>
+    <link>https://suatkarakusoglu.github.io/emacs/</link>
+    <description>Recent content in Emacs on STKRKSGL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0300</lastBuildDate><atom:link href="https://suatkarakusoglu.github.io/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dired Mode</title>
+      <link>https://suatkarakusoglu.github.io/emacs/diredmode/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/emacs/diredmode/</guid>
+      <description>This is about Dired mode for emacs.
+Dired mode Dired mode offers so many cool stuff.</description>
+    </item>
+    
+  </channel>
+</rss>
