@@ -24,5 +24,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Linux</title>
+      <link>https://suatkarakusoglu.github.io/categories/linux/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://suatkarakusoglu.github.io/categories/programming/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>https://suatkarakusoglu.github.io/categories/terminal/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/categories/terminal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
