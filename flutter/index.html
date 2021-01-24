@@ -1,30 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Flutters | STKRKSGL</title>
-
-<meta name="keywords" content="" />
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="https://suatkarakusoglu.github.io/flutter/" />
-<link href="/assets/css/stylesheet.min.9fcc3f6054391fb578ab4f551fff2ff13cfd725f9aae09a65f74ae65a4011251.css" integrity="sha256-n8w/YFQ5H7V4q09VH/8v8Tz9cl&#43;argmmX3SuZaQBElE=" rel="preload stylesheet"
-    as="style">
-
-<link rel="icon" href="https://suatkarakusoglu.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://suatkarakusoglu.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://suatkarakusoglu.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://suatkarakusoglu.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://suatkarakusoglu.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.80.0" />
-<link rel="alternate" type="application/rss&#43;xml" href="https://suatkarakusoglu.github.io/flutter/index.xml">
-
-
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Flutters - STKRKSGL</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" href="https://suatkarakusoglu.github.io/flutter/index.xml" title="STKRKSGL" />
+	<meta itemprop="name" content="Flutters">
+<meta itemprop="description" content="">
 <meta property="og:title" content="Flutters" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -33,174 +14,81 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Flutters"/>
 <meta name="twitter:description" content=""/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://suatkarakusoglu.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://suatkarakusoglu.github.io/css/main.css" />
 
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://suatkarakusoglu.github.io/css/dark.css" />
 
-
+	
+		<script src="https://suatkarakusoglu.github.io/js/main.js"></script>
 </head>
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
 
-</script>
-<noscript>
-    <style type="text/css">
-        .theme-toggle,
-        .top-link {
-            display: none;
-        }
+<body>
+	<div class="container wrapper list">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://suatkarakusoglu.github.io/">STKRKSGL</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
 
-    </style>
-</noscript>
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://suatkarakusoglu.github.io/" accesskey="h" title="STKRKSGL (Alt + H)">STKRKSGL</a>
-            <span class="logo-switches">
-                <span class="theme-toggle" title="(Alt + T)">
-                    <a id="theme-toggle" accesskey="t">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </a>
-                </span>
-                
-            </span>
-        </div>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
-            <li>
-                <a href="https://suatkarakusoglu.github.io/emacs/index.html" title="Emacs">
-                    <span>Emacs</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://suatkarakusoglu.github.io/ios/index.html" title="IOS">
-                    <span>IOS</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://suatkarakusoglu.github.io/flutter/index.html" title="Flutter">
-                    <span>Flutter</span>
-                </a>
-            </li></ul>
-    </nav>
-</header>
-
-    <main class="main"> 
-<header class="page-header">
-  <h1>Flutters</h1>
-</header>
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/emacs/index.html">Emacs</a>
+			</li>
+			
+			<li>
+				<a href="/ios/index.html">IOS</a>
+			</li>
+			
+			<li>
+				<a href="/flutter/index.html">Flutter</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
 
 
+		
+		<h2 class="page-title">Flutters</h2>
+		
+		
+		
 
-<article class="post-entry"> 
+		<ul class="posts flat"><li class="post">
+				<div class="post-header">
+					<div class="meta">
+						<div class="date">
+							<span class="day">24</span>
+							<span class="rest">Jan 2021</span>
+						</div>
+					</div>
+					<div class="matter">
+						<h4 class="title small">
+							<a href="/flutter/flutterwebsupport/">Flutter Web Support</a>
+						</h4>
+						<span class="description">
+							
+								Flutter Web Support
+							
+						</span>
+					</div>
+				</div>
+			</li></ul>
+	</div>
 
-  <header class="entry-header">
-    <h2>
-      Flutter Web Support
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Let’s talk about the Flutter web.
-Flutter Web It is really amazing how flutter supports so many platforms....</p>
-  </section>
-  <footer class="entry-footer">
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2021  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
 
-January 24, 2021&nbsp;·&nbsp;Suat Karakusoglu
-</footer>
-  <a class="entry-link" aria-label="post link to Flutter Web Support" href="https://suatkarakusoglu.github.io/flutter/flutterwebsupport/"></a>
-</article>
-
-    </main><footer class="footer">
-    <span>&copy; 2021 <a href="https://suatkarakusoglu.github.io/">STKRKSGL</a></span>
-    <span>&middot;</span>
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
-    <span>&middot;</span>
-    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
-</a>
-
-
-
-<script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
-        }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.replaceState(null, null, `#${id}`);
-            }
-        });
-    });
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
 
 </body>
 
