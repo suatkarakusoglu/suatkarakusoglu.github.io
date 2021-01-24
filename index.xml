@@ -28,18 +28,6 @@ Dired Mode is writable That means you can change name of any directory and file,
     </item>
     
     <item>
-      <title>Dired Mode</title>
-      <link>https://suatkarakusoglu.github.io/emacs/fkill/</link>
-      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
-      
-      <guid>https://suatkarakusoglu.github.io/emacs/fkill/</guid>
-      <description>We will talk about dired mode and the features showing examples.
-Processes are pretty much everything which works under the hood of the operating system.
-Sometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.
-This term may seem brutal but, every killing opens opportunity for new born pretty processes.</description>
-    </item>
-    
-    <item>
       <title>Flutter Web Support</title>
       <link>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
@@ -47,6 +35,17 @@ This term may seem brutal but, every killing opens opportunity for new born pret
       <guid>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</guid>
       <description>Let&amp;rsquo;s talk about the Flutter web.
 Flutter Web It is really amazing how flutter supports so many platforms.</description>
+    </item>
+    
+    <item>
+      <title>Process kill tool: fkill</title>
+      <link>https://suatkarakusoglu.github.io/emacs/fkill/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/emacs/fkill/</guid>
+      <description>Processes are pretty much everything which works under the hood of the operating system.
+Sometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.
+This term may seem brutal but, every killing opens opportunity for new born pretty processes.</description>
     </item>
     
     <item>
