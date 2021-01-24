@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutters on STKRKSGL</title>
+    <link>https://suatkarakusoglu.github.io/flutter/</link>
+    <description>Recent content in Flutters on STKRKSGL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0300</lastBuildDate><atom:link href="https://suatkarakusoglu.github.io/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter Web Support</title>
+      <link>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</guid>
+      <description>Let&amp;rsquo;s talk about the Flutter web.
+Flutter Web It is really amazing how flutter supports so many platforms.</description>
+    </item>
+    
+  </channel>
+</rss>
