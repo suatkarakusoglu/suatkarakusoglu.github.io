@@ -18,16 +18,5 @@ Dired Mode is writable That means you can change name of any directory and file,
   </description>
     </item>
     
-    <item>
-      <title>Process kill tool: fkill</title>
-      <link>https://suatkarakusoglu.github.io/emacs/fkill/</link>
-      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
-      
-      <guid>https://suatkarakusoglu.github.io/emacs/fkill/</guid>
-      <description>Processes are pretty much everything which works under the hood of the operating system.
-Sometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.
-This term may seem brutal but, every killing opens opportunity for new born pretty processes.</description>
-    </item>
-    
   </channel>
 </rss>

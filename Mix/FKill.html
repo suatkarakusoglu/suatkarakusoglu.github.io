@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-01-24 Paz 23:56 -->
+<!-- 2021-01-25 Pzt 00:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Process kill tool: fkill</title>
@@ -39,7 +39,7 @@
 </div>
 </div>
 
-<div id="orgdda6815" class="figure">
+<div id="org612a41e" class="figure">
 <p><img src="2021-01-24_23-50-01_finish_him.jpeg" alt="2021-01-24_23-50-01_finish_him.jpeg" />
 </p>
 </div>
@@ -82,7 +82,7 @@ Get related line
 Find related column
 </p>
 <div class="org-src-container">
-<pre class="src src-shell">lsof -i4TCP:8080 | tail -1 | awk &#8216;<span style="color: #fb2874;">{</span>print $<span style="color: #9c91e4; font-weight: bold;">2</span><span style="color: #fb2874;">}</span>&#8217; | xargs sudo kill
+<pre class="src src-shell">lsof -i4TCP:8080 | tail -1 | awk &#8216;<span style="color: #fb2874;">{</span><span style="color: #fd971f;">print</span> $<span style="color: #9c91e4; font-weight: bold;">2</span><span style="color: #fb2874;">}</span>&#8217; | xargs sudo kill
 </pre>
 </div>
 
@@ -117,7 +117,7 @@ It is also available at brew
 </pre>
 </div>
 
-<div id="org6e90e35" class="figure">
+<div id="orgb50572d" class="figure">
 <p><img src="How_to_use__fkill_?/2021-01-24_23-46-26_fkill_list_process.png" alt="2021-01-24_23-46-26_fkill_list_process.png" />
 </p>
 </div>
@@ -141,7 +141,7 @@ Kills the process which is bound to 8080 port.
 <h3 id="org7e0c93d">Kill a process through list, fkill helps auto completion.</h3>
 <div class="outline-text-3" id="text-org7e0c93d">
 
-<div id="org7918649" class="figure">
+<div id="org1dd51c0" class="figure">
 <p><img src="How_to_use__fkill_?/2021-01-24_23-47-33_fkill_kill_whatsapp.png" alt="2021-01-24_23-47-33_fkill_kill_whatsapp.png" />
 </p>
 </div>
