@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suat K.</title>
+    <link>https://suatkarakusoglu.github.io/</link>
+    <description>Recent content on Suat K.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0300</lastBuildDate><atom:link href="https://suatkarakusoglu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archive</title>
+      <link>https://suatkarakusoglu.github.io/archive/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/archive/</guid>
+      <description> Suat Karakusoglu Flutter Web Support Dired Mode  </description>
+    </item>
+    
+    <item>
+      <title>Dired Mode</title>
+      <link>https://suatkarakusoglu.github.io/emacs/diredmode/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/emacs/diredmode/</guid>
+      <description>We will talk about dired mode and the features showing examples.
+Dired mode Dired mode offers so many cool stuff.
+Dired Mode is writable That means you can change name of any directory and file, and apply.</description>
+    </item>
+    
+    <item>
+      <title>Flutter Web Support</title>
+      <link>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/flutter/flutterwebsupport/</guid>
+      <description>Let&amp;rsquo;s talk about the Flutter web.
+Flutter Web It is really amazing how flutter supports so many platforms.</description>
+    </item>
+    
+    <item>
+      <title>Suat Karakusoglu</title>
+      <link>https://suatkarakusoglu.github.io/about/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/about/</guid>
+      <description>Interests  Mobile Development iOS Flutter Emacs  Biography Suat Karakusoglu, 2012 Comp. Eng.
+OCA Certified Java Dev.
+iOS Dev.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://suatkarakusoglu.github.io/search/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://suatkarakusoglu.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
