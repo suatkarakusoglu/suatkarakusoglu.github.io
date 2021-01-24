@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-01-24 Paz 23:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Process kill tool: fkill</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Suat Karakusoglu" />
+<meta name="description" content="Kill a process easily: fkill"
+ />
+<meta name="keywords" content="fkill linux process" />
+<link rel='stylesheet' href='/css/site.css' type='text/css'/>
+<meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href=""> UP </a>
+ |
+ <a accesskey="H" href="https://suatkarakusoglu.github.io/"> HOME </a>
+</div><div id="content">
+<h1 class="title">Process kill tool: fkill</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org2322391">It is time for <span class="underline">fkill</span></a></li>
+<li><a href="#org05e8d66">How to use <span class="underline">fkill</span>?</a>
+<ul>
+<li><a href="#org84474fb">List processes</a></li>
+<li><a href="#orgdbdf087">Kill specific process that is bound to a known port</a></li>
+<li><a href="#org7e0c93d">Kill a process through list, fkill helps auto completion.</a></li>
+</ul>
+</li>
+<li><a href="#org5c88ca8">References</a></li>
+</ul>
+</div>
+</div>
+
+<div id="orgdda6815" class="figure">
+<p><img src="2021-01-24_23-50-01_finish_him.jpeg" alt="2021-01-24_23-50-01_finish_him.jpeg" />
+</p>
+</div>
+
+<p>
+Processes are pretty much everything which works under the hood of the operating system.
+</p>
+
+<p>
+Sometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.
+</p>
+
+<p>
+This term may seem brutal but, every killing opens opportunity for new born pretty processes. Look at that way.
+</p>
+
+<p>
+Killing process is easy, what is hard is to find which one you intend to kill.
+</p>
+
+<p>
+Once, i have written a long terminal command and was using it with back searching.
+Such command was to kill 8080 process:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">lsof -i4TCP:8080
+</pre>
+</div>
+
+<p>
+Get related line
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">lsof -i4TCP:8080 | tail -1
+</pre>
+</div>
+
+<p>
+Find related column
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">lsof -i4TCP:8080 | tail -1 | awk &#8216;<span style="color: #fb2874;">{</span>print $<span style="color: #9c91e4; font-weight: bold;">2</span><span style="color: #fb2874;">}</span>&#8217; | xargs sudo kill
+</pre>
+</div>
+
+<div id="outline-container-org2322391" class="outline-2">
+<h2 id="org2322391">It is time for <span class="underline">fkill</span></h2>
+<div class="outline-text-2" id="text-org2322391">
+<div class="org-src-container">
+<pre class="src src-shell">npm install --global fkill-cli
+</pre>
+</div>
+
+<p>
+It is also available at brew
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">brew install fkill
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org05e8d66" class="outline-2">
+<h2 id="org05e8d66">How to use <span class="underline">fkill</span>?</h2>
+<div class="outline-text-2" id="text-org05e8d66">
+</div>
+<div id="outline-container-org84474fb" class="outline-3">
+<h3 id="org84474fb">List processes</h3>
+<div class="outline-text-3" id="text-org84474fb">
+<div class="org-src-container">
+<pre class="src src-shell">fkill
+</pre>
+</div>
+
+<div id="org6e90e35" class="figure">
+<p><img src="How_to_use__fkill_?/2021-01-24_23-46-26_fkill_list_process.png" alt="2021-01-24_23-46-26_fkill_list_process.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdbdf087" class="outline-3">
+<h3 id="orgdbdf087">Kill specific process that is bound to a known port</h3>
+<div class="outline-text-3" id="text-orgdbdf087">
+<p>
+Kills the process which is bound to 8080 port.
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">fkill :8080
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7e0c93d" class="outline-3">
+<h3 id="org7e0c93d">Kill a process through list, fkill helps auto completion.</h3>
+<div class="outline-text-3" id="text-org7e0c93d">
+
+<div id="org7918649" class="figure">
+<p><img src="How_to_use__fkill_?/2021-01-24_23-47-33_fkill_kill_whatsapp.png" alt="2021-01-24_23-47-33_fkill_kill_whatsapp.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5c88ca8" class="outline-2">
+<h2 id="org5c88ca8">References</h2>
+<div class="outline-text-2" id="text-org5c88ca8">
+<p>
+<a href="https://github.com/sindresorhus/fkill-cli">fkill @github</a> 
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Suat Karakusoglu (<a href="mailto:suatkarakusoglu@gmail.com">suatkarakusoglu@gmail.com</a>)</p>
+<p class="date">Date: 2021-01-24 Paz 00:00</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
