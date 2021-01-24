@@ -44,8 +44,8 @@
   "keywords": [
     "fkill", "linux", "process"
   ],
-  "articleBody": "  Processes are pretty much everything which works under the hood of the operating system.\nSometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.\nThis term may seem brutal but, every killing opens opportunity for new born pretty processes. Look at that way.\nKilling process is easy, what is hard is to find which one you intend to kill.\nOnce, i have written a long terminal command and was using it with back searching. Such command was to kill 8080 process:\nlsof -i4TCP:8080 Get related line\nlsof -i4TCP:8080 | tail -1 Find related column\nlsof -i4TCP:8080 | tail -1 | awk ‘{print $2}’ | xargs sudo kill It is time for fkill npm install --global fkill-cli It is also available at brew\nbrew install fkill How to use fkill? List processes fkill   Kill specific process that is bound to a known port Kills the process which is bound to 8080 port.\nfkill :8080 Kill a process through list, fkill helps auto completion.   ",
-  "wordCount" : "192",
+  "articleBody": "  Processes are pretty much everything which works under the hood of the operating system.\nSometimes you may get pretty furious about some processes which are stuck , which prevents you, by holding on to ports and doesn’t allow you to start new processes, that is why you wanna kill, not because you are insane.\nThis term may seem brutal but, every killing opens opportunity for new born pretty processes. Look at that way.\nKilling process is easy, what is hard is to find which one you intend to kill.\nOnce, i have written a long terminal command and was using it with back searching. Such command was to kill 8080 process:\nlsof -i4TCP:8080 Get related line\nlsof -i4TCP:8080 | tail -1 Find related column\nlsof -i4TCP:8080 | tail -1 | awk ‘{print $2}’ | xargs sudo kill It is time for fkill npm install --global fkill-cli It is also available at brew\nbrew install fkill How to use fkill? List processes fkill   Kill specific process that is bound to a known port Kills the process which is bound to 8080 port.\nfkill :8080 Kill a process through list, fkill helps auto completion.   References fkill @github\n",
+  "wordCount" : "195",
   "inLanguage": "en",
   "datePublished": "2021-01-24T00:00:00+03:00",
   "dateModified": "2021-01-24T00:00:00+03:00",
@@ -193,6 +193,8 @@ Such command was to kill 8080 process:</p>
     <img src="/ox-hugo/2021-01-24_23-47-33_fkill_kill_whatsapp.png"/> 
 </figure>
 
+<h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
+<p><a href="https://github.com/sindresorhus/fkill-cli">fkill @github</a></p>
 
 </div>
   <footer class="post-footer">
